@@ -3,6 +3,7 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } 
 import Login from "./components/Login/Login";
 import About from "./components/About/About";
 import Header from './components/GlobalComponents/Header';
+import { useEffect } from 'react';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -13,11 +14,15 @@ const router = createBrowserRouter(
   )
 )
 
-function App({ routes }) {
+
+
+const App = () => {
+  
+
   return (
     <>
-     <RouterProvider router={router}/>
-     <h1>Hello</h1>
+    <Login />
+     {/* <RouterProvider router={router}/> */}
     </>
       
   )
