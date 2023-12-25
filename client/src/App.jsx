@@ -20,10 +20,10 @@ const App = () => {
   
 
   return (
-    <>
+    <div className='w-full h-screen md:h-fit relative bg-mobile bg-no-repeatrelative px-10 py-9 md:bg-tablet xl:bg-extraLarge lg:bg-large bg-cover'>
     <Login />
      {/* <RouterProvider router={router}/> */}
-    </>
+    </div>
       
   )
 }

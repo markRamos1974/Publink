@@ -37,7 +37,10 @@ export default {
         'mobile': 'url("./src/assets/Background/Background-mobile.png")',
         'tablet': 'url("./src/assets/Background/Background-tablet.png")',
         'large': 'url("./src/assets/Background/Background-1arge.png")',
-        'extraLarge': 'url("./src/assets/Background/Background-extra-large.png")'
+        'extraLarge': 'url("./src/assets/Background/Background-extra-large.png")',
+        'logo-mobile': 'url("./src/assets/Images/publink-logo-mobile.png")',
+        'logo-tablet': 'url("./src/assets/Images/publink-logo-tablet.png")',
+        'logo-desktop': 'url("./src/assets/Images/publink-logo-desktop.png")'
       }
     },
   },
